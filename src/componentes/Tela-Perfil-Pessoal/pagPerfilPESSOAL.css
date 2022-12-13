@@ -1,0 +1,335 @@
+.header{
+   
+    position: absolute;
+    width: 100%;
+    height: 210px;
+    left: 0px;
+    top: -130px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.div1{
+    display: flex;
+    position: absolute;
+    margin-top: -14%;
+}
+
+.img_perfil{
+    width: 40%;
+    border-radius: 56%;
+    margin-left: -50%;
+    margin-top: -16%;    
+}
+.btn1{
+ position: absolute;
+ height: 45%;
+ width: 24%;
+ margin-top: -5%;
+ border-radius: 50px;
+ border:none;
+ background-color: #012169;
+ color: #FFFFFF;
+ font-size: 16px;
+ font-family: 'Open Sans', sans-serif;
+}
+.selectgenero{
+    position: absolute;
+    margin-left: 73.1%;
+    margin-top: -15%;
+    width: 69%;
+    height: 40%;
+    border-radius: 10px;
+}
+.inputText{
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 73.1%;
+    width: 68%;
+    height: 70%;
+    border-radius: 10px;
+    
+   
+}
+
+.Total{
+    margin-left: 38%;
+    margin-top: 35%;
+    margin-bottom: 20%;
+}
+.btn2{
+    position: absolute;
+    height: 50px;
+    width: 120px;
+    margin-top: 10%;
+    border-radius: 50px;
+    border:none;
+    background-color: #012169;
+    color: #FFFFFF;
+    font-size: 16px;  
+    margin-left: 10%;
+    font-family: 'Open Sans', sans-serif;;
+}
+/*------------------------------ coluna1 -------------------------------------------------------*/
+.coluna1{
+    position: relative;
+    margin-top: 20%;
+    
+}
+.input1{
+    margin-left: -26%;
+    width:36%;
+    height: 30px;
+    
+    
+}
+.input2{
+    margin-left: 28%;
+    width:36%;
+    height: 30px;
+    
+    
+}
+/*---------------------------------- coluna2 -----------------------------------------------------*/
+
+.coluna2{
+    margin-top: 20%;
+    margin-bottom: 3%;
+}
+.input3{
+    margin-left: -26%;
+    width:36%;
+    height:30px;
+}
+.input4{
+    margin-left: 28%;
+    width:36%;
+    height:30px;
+}
+
+/*------------------------------------------coluna3---------------------------------------------*/
+.coluna3{
+    margin-top: 20%;
+    margin-bottom: 3%;
+}
+.input5{
+    margin-left: -26%;
+    width:36%;
+    height:30px;
+}
+.input6{
+    margin-left: 28%;
+    width:36%;
+    height:30px;
+}
+/*-----------------------textos----------------------*/
+.textos{
+    font-family: 'Open Sans', sans-serif;  
+}
+.Pfoto{
+position: absolute;
+margin-top: -57%;
+margin-left: -15%;
+}
+.Pgenero{
+    position: absolute;
+    margin-top: -56%;
+    margin-left: 24%;   
+}
+.Pstatus{
+    position: absolute;
+    margin-top: -48%;
+    margin-left: 24%; 
+}
+.Pnome{
+    position: absolute;
+    margin-top: -36%;
+    margin-left: -16%;  
+}
+.Psobre{
+    position: absolute;
+    margin-top: -36%;
+    margin-left: 24%;
+}
+.Pemail{
+position: absolute;
+margin-top: -21%;
+margin-left: -16%;
+}
+.Psenha{
+    position: absolute;
+    margin-top: -21%;
+    margin-left: 24%;
+}
+.Ptelefone{
+    position: absolute;
+    margin-top: -6%;
+    margin-left: -16%;
+}
+.Ppais{
+    position: absolute;
+    margin-top: -6%;
+    margin-left: 24%;
+}
+/*------------------------ responsivo -------------------------*/
+
+@media (max-width:600px) {
+    .header{
+        position: absolute;
+        width: 100%;
+    }
+    .div1{
+      
+        position: relative;
+        margin-top: 20%;
+
+    } 
+    .img_perfil{
+        width: 40%;
+        border-radius: 56%;
+        margin-left: 1%;
+        margin-top: -16%;    
+    }
+    .btn1{
+     position: absolute;
+     margin-top: 30%;
+     border-radius: 50px;
+     margin-left: 6%;
+     font-size: 13px;
+     width: 85px;
+    }
+    .selectgenero{
+        position: absolute;
+        margin-left: -11%;
+        margin-top: 52%;
+        width: 69%;
+        height: 40px;
+    }
+    .inputText{
+        position: absolute;
+        margin-top: 75%;
+        margin-left: -11%;   
+    }
+    
+    .Total{
+        margin-left: 38%;
+        margin-top: 35%;
+        margin-bottom: 20%;
+    }
+    /*------------------------------ coluna1 -------------------------------------------------------*/
+    .coluna1{
+        position: relative;
+        margin-top: 20%;
+         
+    }
+    .input1{
+        margin-left: -12%;
+        width:71%;
+        height: 30px;
+        margin-top: 60%;
+        
+        
+    }
+    .input2{
+        margin-left: -12%;
+        width:71%;
+        height: 30px;
+        margin-top: 14%;    
+    }
+    /*---------------------------------- coluna2 -----------------------------------------------------*/
+    
+    .coluna2{
+        margin-top: 10%;
+        margin-bottom: 3%;
+    }
+    .input3{
+        margin-left: -12%;
+        width:71%;
+        height: 30px;
+        margin-top: 5%;
+    }
+    .input4{
+        margin-left: -12%;
+        width:71%;
+        height: 30px;
+        margin-top: 14%;
+    }
+    
+    /*------------------------------------------coluna3---------------------------------------------*/
+    .coluna3{
+        margin-top: 12%;
+        margin-bottom: 3%;
+    }
+    .input5{
+        margin-left: -12%;
+        width:71%;
+        height: 30px;
+        margin-top: 4%;
+    }
+    .input6{
+        margin-left: -12%;
+        width:71%;
+        height: 30px;
+        margin-top: 14%;
+    }
+    /*-----------------------textos----------------------*/
+    .Pfoto{
+        position: absolute;
+        margin-top: -832px;
+        margin-left: 9%;
+        }
+        .Pgenero{
+            position: absolute;
+            margin-top: -622px;
+            margin-left: -5%;   
+        }
+        .Pstatus{
+            position: absolute;
+            margin-top: -555px;
+            margin-left: -6%; 
+        }
+        .Pnome{
+            position: absolute;
+            margin-top: -466px;
+            margin-left: -7%;  
+        }
+        .Psobre{
+            position: absolute;
+            margin-top: -388px;
+            margin-left: -8%;
+        }
+        .Pemail{
+        position: absolute;
+        margin-top: -309px;
+        margin-left: -7%;
+        }
+        .Psenha{
+            position: absolute;
+            margin-top: -228px;
+            margin-left: -8%;
+        }
+        .Ptelefone{
+            position: absolute;
+            margin-top: -144px;
+            margin-left: -7%;
+        }
+        .Ppais{
+            position: absolute;
+            margin-top: -67px;
+            margin-left: -7%;
+        }
+        .btn2{
+            position: absolute;
+            height: 40px;
+            width: 110px;
+            margin-top: 10%;
+            margin-left: 1%;
+            border-radius: 50px;
+            border:none;
+            background-color: #012169;
+            color: #FFFFFF;
+            font-size: 14px;  
+        }
+    
+}
+

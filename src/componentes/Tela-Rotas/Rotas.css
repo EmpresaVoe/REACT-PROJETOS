@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,700&display=swap');
+
+
+.GeralROTAS {
+    width: 100%;
+    display: flex;
+    color: #012169;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 0px 1px 3px 1px #C0C0C0 ;
+}
+
+.LogoROTAS {
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 2%;
+
+}
+
+/* lista navegação*/
+.listaUl1 {
+    margin-left: 600px;
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40%;
+
+}
+
+.LinkRotas {
+    text-decoration: none;
+    
+}
+
+/* as rotas estão em formatos de botões*/
+.buttonLista {
+    width: 72px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.buttonLista:hover {
+    background-color: #012169;
+    color: white;
+    transition: .7s;
+}
+
+.Entrar {
+    width: 72px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #012169;
+    color: white;
+    cursor: pointer;
+}
+
+.Entrar:hover {
+    transform: scale(1.1);
+    transition: .3s;
+} 
+
+
+
+
+@media (max-width:700px) {
+
+    .GeralROTAS{
+       
+    }
+
+    .MenuLimk{
+
+    }
+
+    .menu{
+        display:block ;
+        position: absolute;
+    }
+
+    .LogoROTAS {
+        width: 25%;
+        margin-left: 6%;
+        margin-top: 2%;
+    
+    }
+
+    .listaUl1 {
+        margin-left: 23%;
+        margin-top: 7px;
+        position: absolute;
+        list-style: none;
+        display:inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0%;
+    }
+    
+
+    .buttonLista {
+        width: 50px;
+        height: 30px;
+        border: none;
+        border-radius: 10px;
+        background-color: #ffffff;
+        font-size: 10px;
+        font-weight: 500;
+    }
+}
+

@@ -1,0 +1,283 @@
+.PagLOGIN {
+    background-image: url(./ImgLogin/bg_geral_login.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: white;
+    padding: 0%;
+    margin: 0%;
+
+}
+
+.HeadLOGIN {
+    padding: 0;
+    margin-top: 0%;
+    margin-left: 32px;
+    width: 100px;
+    height: 100px;
+}
+
+.HeadLOGIN img {
+    margin-top: -30px;
+    margin-left: 25px;
+    width: 140px;
+}
+
+.HeadLOGIN img:hover {
+    transform: scale(1.1);
+    transition: .7s;
+}
+
+#BemVindo {
+    margin-top:;
+    text-align: center;
+    background-image: url(./ImgLogin/bg_div.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 540px;
+    height: 640px;
+}
+
+.BodyLOGIN {
+    gap: 300px;
+    display: flex;
+}
+
+.FormsLOGIN {
+    background-color: white;
+    margin-top: 80px;
+}
+
+.TituloLOGIN {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+}
+
+.TituloLOGIN h1 {
+    font-size: 40px;
+    color: #012169;
+}
+
+.TituloLOGIN p {
+    color: #484848;
+    margin-top: -20px;
+
+}
+
+.TituloEmailLOGIN {
+    width: 100%;
+    margin-top: 10px;
+    color: #012169;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.TituloEmailLOGIN input {
+
+    margin-right: 200px;
+    padding-left: 25px;
+    width: 100%;
+    height: 42px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: #bebdbd 2px 2px 3px;
+
+}
+
+.TituloSenhaLOGIN {
+    width: 100%;
+    margin-top: 10px;
+    color: #012169;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.TituloSenhaLOGIN input {
+    margin-right: 200px;
+    padding-left: 25px;
+    width: 100%;
+    height: 42px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: #bebdbd 2px 2px 3px;
+}
+
+.EsqueceuLOGIN {
+    margin-left: -25px;
+    color: #484848;
+    display: inline-flex;
+    gap: 110px;
+}
+
+#check {
+    color: #012169;
+}
+
+.EsqueceuLOGIN li {
+    list-style: none;
+
+}
+
+.EsqueceuLOGIN li a {
+    color: #012169;
+    text-decoration: none;
+}
+
+.EnviarLOGIN {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.EnviarLOGIN ul {
+    width: 100%;
+    margin-left: 10px;
+    display: inline-flex;
+    gap: 2px;
+    list-style: none;
+    color: #484848;
+}
+
+.EnviarLOGIN a {
+    color: #012169;
+    text-decoration: none;
+}
+
+.EnviarLOGIN button {
+    width: 200px;
+    height: 40px;
+    border-radius: 12px;
+    border: none;
+    background-color: #012169;
+    color: white;
+    font-size: 22px;
+    box-shadow: #484848 0px 2px 3px;
+
+}
+
+@media (max-width: 800px) {
+    .PagLOGIN {
+        
+        background-size: 100%;
+        background-color: #1877F2;
+        background-image: none;
+
+    }
+
+    .HeadLOGIN {
+        padding: 0%;
+        margin: 0%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .BodyLOGIN {
+        display: flex;
+        gap: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #BemVindo {
+        background-image: url(./ImgLogin/bg_mobile.png);
+        background-color: white;
+        background-size:100% ;
+        width: 100%;
+        height: 700px;
+        border: 3px solid white;
+    }
+
+    .FormsLOGIN {
+        border: 1px solid #1877F2;
+        border-radius: 32px;
+        background-color: white;
+        margin-top: -650px;
+        width: 100%;
+        padding: 10px;
+        margin-left: -10px;
+    }
+
+    .TituloLOGIN {
+        width: 100%;
+    }
+
+    .TituloEmailLOGIN input {
+        padding-left: 5px;
+        margin-left: 10px;
+        margin-right: 0px;
+        width: 90%;
+        height: 42px;
+        border-radius: 10px;
+        border: none;
+        box-shadow: #bebdbd 2px 2px 3px;
+
+    }
+
+    .TituloSenhaLOGIN {
+        width: 100%;
+        padding: 2px;
+        margin-top: 10px;
+        color: #012169;
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .TituloSenhaLOGIN input {
+        margin-right: 0px;
+        padding-left: 5px;
+        margin-left: 10px;
+        width: 90%;
+        height: 42px;
+        border-radius: 10px;
+        border: none;
+        box-shadow: #bebdbd 2px 2px 3px;
+    }
+
+    .EsqueceuLOGIN {
+        margin-left: -35px;
+
+        color: #484848;
+        display: inline-flex;
+        gap: 20px;
+    }
+
+    .EnviarLOGIN ul {
+        text-align: center;
+        width: 100%;
+        margin-left: -40px;
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+
+    }
+}
+
+@media (min-width: 1636.440px) {
+
+    .BodyLOGIN {
+        display: flex;
+        gap: 300px;
+    }
+
+    #BemVindo {
+        width:600px ;
+        height: 720px;
+        background-color: white;
+        background-size:100% ;
+       
+
+        border: 3px solid white;
+    }
+
+    .TituloLOGIN {
+        width: 100%;
+    }
+
+}

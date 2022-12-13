@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,700&display=swap');
+
+body {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+.GeralVoe {
+  width: 100%;
+}
+
+.GeralVoe header {
+  width: 100%;
+  background-color: white;
+ 
+}
+

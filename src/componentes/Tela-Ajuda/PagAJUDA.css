@@ -1,0 +1,574 @@
+#BgAJUDA {
+  width: 100%;
+}
+
+.MeioAJUDA {
+  margin-top: 97px;
+  padding-left: 80px;
+  padding-right: 80px;
+  display: flex;
+  gap: 80px;
+}
+
+#BodyForms {
+  display: block;
+}
+
+.divFaleConosco {
+  width: 40%;
+}
+
+.divFaleConosco2 {
+  width: 50%;
+}
+
+.FaleConosco {
+
+  text-align: center;
+  font-size: 50px;
+  color: #012169;
+}
+
+#BodyForms .A {
+  display: flex;
+  justify-content: space-between;
+  gap: 31px;
+}
+
+#BodyForms .B {
+  margin-top: 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 31px
+}
+
+#Nome {
+  width: 200%;
+  height: 48px;
+  border-radius: 20px;
+  border: 1px solid #1877F2;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+#Sobrenome {
+  width: 200%;
+  height: 48px;
+  border-radius: 20px;
+  border: 1px solid #1877F2;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.InputFaleconosco {
+  height: 48px;
+  border-radius: 20px;
+  border: 1px solid #1877F2;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.InputFaleconoscoMensagem {
+  height: 300px;
+  border-radius: 20px;
+  border: 1px solid #1877F2;
+  padding-left: 20px;
+  padding-top: 10px;
+  font-size: 20px;
+
+
+}
+
+.InputEnviar {
+  width: 48%;
+  background-color: #012169;
+  color: white;
+  margin-top: 31px;
+  height: 48px;
+  border-radius: 20px;
+  border: 1px solid #1877F2;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.PerguntasFrequentes h1 {
+  font-size: 50px;
+  text-align: center;
+  margin-left: 30px;
+  color: #1877F2;
+}
+
+.PerguntasFrequentes .subtitulo {
+  color: #012169;
+  font-size: 30px;
+}
+
+.PerguntasFrequentes span {
+  color: #1877F2;
+  font-size: 20px;
+
+}
+
+.PerguntasFrequentes .p1 {
+  margin-top: 100px;
+}
+
+.PerguntasFrequentes hr {
+
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.FimAJUDA {
+  background-image: url(./ImgAjuda/img_ajuda_faleconosco.png);
+  height: 800px;
+  background-repeat: no-repeat ;
+  background-size: 100%;
+  margin-top: 0%;
+  padding-left: 80px;
+  padding-right: 80px;
+  display: flex;
+  gap: 280px;
+  margin-left: 50px;
+}
+
+/*.FaleConoscoLink span {
+  color: #012169;
+  font-size: 100px;
+}*/
+
+.FaleConoscoLink {
+  margin-top: 500px;
+  margin-left: 25px;
+}
+.FaleConoscoLink .DivLink {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.FaleConoscoLink .DivLink .linkD{
+  display: flex;
+  height: 40px;
+
+}
+
+/*.FaleConoscoLink ul {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: auto;
+  margin-top: 50px;
+  height: 200px;
+}
+
+
+
+.FaleConoscoLink ul li{
+height: 100px;
+}
+*/
+
+.LogoLista {
+  
+  font-size: 35px;
+  color:#012169;
+  margin-top: 3px;
+  padding: 0;
+  align-items: flex-end;
+}
+
+.FaleConoscoLink a {
+  font-size: 25px;
+  color:#1877F2;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.DivImgAJUDA {
+  width: 100%;
+}
+
+.ImgAJUDA {
+  width: 90%;
+}
+
+
+
+/*RESPONSIVIDADE*/
+
+
+
+@media (max-width: 800px){
+
+  #MeioAJUDA {
+    display: flex;
+    flex-direction: column;
+  }
+  #BodyForms {
+    width: 300px;
+  }
+
+  .PerguntasFrequentes {
+    width: 300px;
+  }
+
+  .FimAJUDA {
+    margin-top: 0%;
+    height: 200px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0%;
+
+
+  }
+  .FaleConoscoLink{
+    margin-top: 120px;
+    margin-left: 15px;
+    
+  }
+  .FaleConoscoLink .DivLink {
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .LogoLista{
+    font-size: 15px;
+  }
+
+  .linkD a {
+    font-size: 15px;
+  }
+}
+
+/* RESOLUÇÃO DE 1841PX*/
+
+@media (min-width:  1841px){
+
+  .FimAJUDA {
+    height: 1000px;
+  
+  }
+
+  .FaleConoscoLink{
+    margin-top: 600px;
+    margin-left: 50px;
+   
+  }
+   
+}
+
+/*RESOLUÇÃO DE 2209.200PX*/
+
+@media (min-width: 2209.200px) {
+  
+
+  #MeioAJUDA {
+    display: flex;
+    gap: 300px;
+   
+  }
+  #BodyForms {
+    width:600px;
+    margin-left: 150px;
+  }
+
+
+  #Nome {
+    width: 300px;
+    height: 70px;
+    font-size: 30px;
+  }
+
+  #Sobrenome {
+    width: 300px;
+    height: 70px;
+    font-size: 30px;
+  }
+  .InputFaleconosco{
+    width: 655px;
+    height: 70px;
+    font-size: 30px;
+  }
+
+  .InputFaleconoscoMensagem{
+    width: 655px;
+    height: 400px;
+    font-size: 30px
+  }
+
+  .InputEnviar{
+    width: 300px;
+    height: 70px;
+    font-size: 45px
+  }
+  .PerguntasFrequentes {
+    width: 800px;
+  }
+  
+  .PerguntasFrequentes h1 {
+    font-size: 60px;
+  }
+  #p1{
+    margin-top: 100px;
+  }
+
+  #subtitulo{
+    font-size: 40px;
+  }
+
+  .PerguntasFrequentes span {
+    font-size: 40px;
+  }
+
+  .FimAJUDA {
+    margin-top: 0%;
+    height: 1100px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0%;
+
+
+  }
+  .FaleConosco{
+   margin-left: 230px;
+    font-size: 60px;
+  }
+
+  .FaleConoscoLink{
+    margin-top: 700px;
+    margin-left: 190px;
+    
+  }
+  .FaleConoscoLink .DivLink {
+   
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .LogoLista{
+    margin-top: 15px;
+    font-size: 30px;
+  }
+
+  .linkD a {
+    font-size: 38px;
+  }
+  
+}
+
+/* para resolução de 2500px*/
+
+@media (min-width: 2500px) {
+  
+
+  #MeioAJUDA {
+    display: flex;
+    gap: 400px;
+   
+  }
+  #BodyForms {
+    width: 900px;
+    margin-left: 200px;
+  }
+
+
+  #Nome {
+    width: 600px;
+    height: 100px;
+    font-size: 45px;
+  }
+
+  #Sobrenome {
+    width: 600px;
+    height: 100px;
+    font-size: 45px;
+  }
+  .InputFaleconosco{
+    width: 1155px;
+    height: 100px;
+    font-size: 45px;
+  }
+
+  .InputFaleconoscoMensagem{
+    width: 1155px;
+    height: 600px;
+    font-size: 45px
+  }
+
+  .InputEnviar{
+    width: 600px;
+    height: 100px;
+    font-size: 45px
+  }
+  .PerguntasFrequentes {
+    width: 1200px;
+  }
+  
+  .PerguntasFrequentes h1 {
+    font-size: 100px;
+  }
+  #p1{
+    margin-top: 200px;
+  }
+
+  #subtitulo{
+    font-size: 55px;
+  }
+
+  .PerguntasFrequentes span {
+    font-size: 50px;
+  }
+
+  .PerguntasFrequentes hr{
+    margin-top: 100px;
+    margin-bottom: 90px;
+ }
+  .FimAJUDA {
+    margin-top: 0%;
+    height: 1500px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0%;
+
+  }
+
+  .FaleConosco{
+   margin-left: 350px;
+    font-size: 100px;
+  }
+
+  .FaleConoscoLink{
+    margin-top: 1000px;
+    margin-left: 190px;
+    
+  }
+  .FaleConoscoLink .DivLink {
+   
+    gap: 60px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .LogoLista{
+    margin-top: 15px;
+    font-size: 60px;
+  }
+
+  .linkD a {
+    font-size: 60px;
+  }
+  
+}
+
+/*RESOLUÇÃO DE 4258.420*/
+
+@media (min-width: 4258.420px) {
+  
+
+  #MeioAJUDA {
+    display: flex;
+    gap:400px;
+   
+  }
+  #BodyForms {
+    width: 1800px;
+    margin-left: 200px;
+  }
+
+
+  #Nome {
+    width: 900px;
+    height: 150px;
+    font-size: 55px;
+  }
+
+  #Sobrenome {
+    width: 900px;
+    height: 150px;
+    font-size: 55px;
+  }
+  .InputFaleconosco{
+    width: 1770px;
+    height: 150px;
+    font-size: 55px;
+  }
+
+  .InputFaleconoscoMensagem{
+    width: 1770px;
+    height: 600px;
+    font-size: 55px
+  }
+
+  .InputEnviar{
+    width: 900px;
+    height: 150px;
+    font-size: 55px;
+  }
+  .PerguntasFrequentes {
+    width: 1800px;
+  }
+  
+  .PerguntasFrequentes h1 {
+    font-size: 150px;
+  }
+  #p1{
+    margin-top: 200px;
+  }
+
+  #subtitulo{
+    font-size: 80px;
+  }
+
+  .PerguntasFrequentes span {
+    font-size: 80px;
+  }
+  .PerguntasFrequentes hr{
+     margin-top: 130px;
+     margin-bottom: 100px;
+  }
+  .FimAJUDA {
+    margin-top: 0%;
+    height: 2300px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0%;
+
+  }
+
+  .FaleConosco{
+   margin-left: 350px;
+    font-size: 150px;
+  }
+
+  .FaleConoscoLink{
+    margin-top: 1500px;
+    margin-left: 290px;
+    
+  }
+  .FaleConoscoLink .DivLink {
+   
+    gap: 80px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .LogoLista{
+    margin-top: 15px;
+    font-size: 90px;
+  }
+
+  .linkD a {
+    font-size: 85px;
+  }
+  
+}

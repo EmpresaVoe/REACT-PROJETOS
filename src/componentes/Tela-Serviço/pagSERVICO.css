@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,700&display=swap');
+
+.GeralSERVICO {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.DivSERVICO img{
+    width: 100%;
+}
+
+.BotoesPESQUISAR input{
+    position: absolute;
+    margin-top: -18%;
+    margin-left: 6%;
+    width: 40%;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    padding-left:20px;
+    padding-right: 80px;
+}
+
+.BotaoPESQUISAR {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    padding: 2px;
+    border-radius: 50%;
+    margin-left: 43.4%;
+    margin-top: -17.7%;
+    border: none;
+    background-color: #012169;
+    cursor: pointer;
+}
+
+.iconBiSearch {
+    margin-top: 1px;
+    font-size: 22px;
+    color: white;
+}
+
+.TituloSERVICO{
+    color: #11234D;
+    margin-left: 6%;
+    margin-top: 2% ;
+}
+
+.FeedSERVICO {
+    display: flex;
+    max-width: 1800px;
+    flex-wrap: wrap
+}
+
+@media (max-width:700px) {
+
+    
+    .BotoesPESQUISAR input{
+        position: absolute;
+        margin-top: -18%;
+        margin-left: 6%;
+        width: 40%;
+        height: 40px;
+        border-radius: 25px;
+        border: none;
+        font-size: 9px;
+        padding-left:10px;
+        padding-right: 40px;
+    }
+    
+    
+    .BotaoPESQUISAR {
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        padding: 2px;
+        border-radius: 50%;
+        margin-left: 35.6%;
+        margin-top: -17%;
+        border: none;
+        background-color: #012169;
+    }
+
+    .TituloSERVICO {
+        font-size: 20px;
+    }
+}

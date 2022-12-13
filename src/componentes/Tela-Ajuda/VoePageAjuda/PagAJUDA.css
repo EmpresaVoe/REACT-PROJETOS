@@ -1,0 +1,170 @@
+#BgAJUDA {
+  width: 100%;
+}
+
+.MeioAJUDA {
+  margin-top: 97px;
+  padding-left: 80px;
+  padding-right: 80px;
+  display: flex;
+  gap: 80px;
+}
+
+#BodyForms {
+  display: block;
+}
+
+.divFaleConosco {
+  width: 40%;
+}
+
+.divFaleConosco2 {
+  width: 50%;
+}
+
+.FaleConosco {
+
+  text-align: center;
+  font-size: 50px;
+  color: #012169;
+}
+
+#BodyForms .A {
+  display: flex;
+  justify-content: space-between;
+  gap: 31px;
+}
+
+#BodyForms .B {
+  margin-top: 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 31px
+}
+
+#Nome {
+  width: 200%;
+  height: 48px;
+  border-radius: 20px;
+  border: 1px solid #1877F2;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+#Sobrenome {
+  width: 200%;
+  height: 48px;
+  border-radius: 20px;
+  border: 1px solid #1877F2;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.InputFaleconosco {
+  height: 48px;
+  border-radius: 20px;
+  border: 1px solid #1877F2;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.InputFaleconoscoMensagem {
+  height: 300px;
+  border-radius: 20px;
+  border: 1px solid #1877F2;
+  padding-left: 20px;
+  padding-top: 10px;
+  font-size: 20px;
+
+
+}
+
+.InputEnviar {
+  width: 48%;
+  background-color: #012169;
+  color: white;
+  margin-top: 31px;
+  height: 48px;
+  border-radius: 20px;
+  border: 1px solid #1877F2;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.PerguntasFrequentes h1 {
+  font-size: 50px;
+  text-align: center;
+  margin-left: 30px;
+  color: #1877F2;
+}
+
+.PerguntasFrequentes .subtitulo {
+  color: #012169;
+  font-size: 30px;
+}
+
+.PerguntasFrequentes span {
+  color: #1877F2;
+  font-size: 20px;
+
+}
+
+.PerguntasFrequentes .p1 {
+  margin-top: 100px;
+}
+
+.PerguntasFrequentes hr {
+
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.FimAJUDA {
+  margin-top: 200px;
+  padding-left: 80px;
+  padding-right: 80px;
+  display: flex;
+  gap: 280px;
+  margin-left: 50px;
+}
+
+.FaleConoscoLink span {
+  color: #012169;
+  font-size: 100px;
+}
+
+.FaleConoscoLink ul {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: auto;
+  margin-top: 50px;
+
+}
+
+.LogoLista {
+  font-size: 30px;
+  color:#012169;
+  margin: 0;
+  padding: 0;
+  align-items: flex-end;
+}
+
+.FaleConoscoLink a {
+  margin-bottom: ;
+  font-size: 25px;
+  color:#1877F2;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.DivImgAJUDA {
+  width: 100%;
+}
+
+.ImgAJUDA {
+  width: 90%;
+}

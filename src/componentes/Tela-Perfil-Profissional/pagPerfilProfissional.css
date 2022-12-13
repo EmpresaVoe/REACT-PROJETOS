@@ -1,0 +1,154 @@
+
+
+
+.PerfilPessoalCONTEUDO {
+    width:100%;
+    margin-top: 40px;
+    margin-bottom: 64px;
+    text-align: center;
+}
+
+.ImgPerfil{
+    width:15% ;
+}
+
+.DivConfiguração{
+    padding: 10px;
+    margin-top: -30px;
+    margin-left: 1080px;
+    background-color: #F9F9F9;
+    width: 25%;
+    border-radius: 20px;
+    position: absolute;
+}
+
+.DivTituloConfiguração{
+    margin-top: -10px;
+    display: flex;
+    align-items: center;
+    color: #012169;
+    gap: 20px;
+}
+
+.ListaConfig{
+    list-style: none;
+    margin-top: -15px;    
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ListaConfig li{
+    margin-left: -230px;
+    margin-top: -20px;
+    color: #012169;
+
+}
+
+.IconConfigui{
+    font-size: 40px;
+    
+}
+
+.IconList{
+    margin-left: -32px;
+    margin-top: 30px;
+    font-size: 25px;
+    color: #012169;
+}
+
+.PerfilConteudoBIO h3{
+    font-weight: 400;
+
+}
+
+.PerfilConteudoBIO h5{
+    margin-top: -8px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.PefilClassificação {
+    margin-top: -25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.PefilClassificação img {
+    width: 40px;
+    height: 40px;
+}
+
+.PefilClassificação h4{
+ font-size: 20px;
+ font-weight: 400;
+ color: #636262;
+}
+
+.BotãoContratar {
+    width: 10%;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: #012169;
+}
+
+.BotãoContratar:hover {
+    transform: scale(1,1);
+    transition: .5s;
+}
+
+/* cardsPerfil*/
+
+.TituloAvaliação h1{
+  color: #11234D;
+  margin-left: 4%;
+  margin-bottom: 50px;
+}
+
+.AvaliaçãoPerfil{
+display: flex;
+justify-content: center;
+gap: 80px;
+margin-bottom:100px ;
+}
+
+.CardsAvaliação {
+ display: flex;
+ gap: 12px;
+ background-color: #F9F9F9;
+ padding: 1%;
+ width: 30%;
+ height: 200px;
+ border-radius: 20px;
+ font-size: 20px;
+}
+
+.CardsAvaliação h1{
+    font-size: 25px;
+}
+
+.CardsAvaliação img {
+    width: 60px;
+    height: 60px;
+    margin-top: 32px;
+}
+
+#Estrela {
+    position: absolute;
+    margin-top: 145px;
+    margin-left: 60px;
+    width: 150px;
+    height: 40px;
+}
+
+.pontuação {
+    position: absolute;
+    margin-top: 150px;
+    font-weight: 400;
+    margin-left: 230px;
+    color: #636262;
+}

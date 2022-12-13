@@ -1,0 +1,137 @@
+
+
+.CardGERAL {
+    margin-top: 100px;
+    width: 360px;
+    margin-bottom: 50px ;
+    height: 300px;
+    margin-left: 6%;
+    background-color:#F9F9F9;
+    border-radius: 20px;
+    box-shadow: 0px 4px 3px 1px #C0C0C0 
+
+}
+
+.CardINFO {
+    display: flex;
+    padding:10px ;
+    width: 100%;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.DescriçãoCard {
+    border: 1px solid white;
+    margin-top: 8px;
+    font-size: 20px;
+    width: 80%;
+    height: 100px;
+  
+}
+
+#PerfilCard {
+    position: absolute;
+    width: 150px;
+    margin-top: -300px;
+    margin-left: 250px;
+    border-radius: 50%;
+}
+
+#Estrela {
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#PerfilCard:hover {
+transform: scale(1.1);
+transition: .5s;
+}
+
+
+.Pontos {
+   width:50px;
+   height: 50px;
+   position: absolute;
+   margin-top: -4px;
+   border-radius: 50%;
+   margin-left: 10px;
+   margin-right: 10px;
+   border: none;
+}
+
+.Pontos:hover {
+    background-color: #1877F2;
+    color: white;
+    transition: .8s;
+
+}
+
+#PerfilVALUE {
+    background-color: #012169;
+    width: 100px;
+    margin-left: 90px;
+    position: absolute;
+    height: 42px ;
+    font-size: 14px;
+    border: none;
+    color: white;
+    border-radius: 16px;
+}
+
+@media (max-width: 700px) {
+    .CardGERAL {
+        width: 290px;
+        margin-bottom: 10px ;
+        height: 250px;
+        margin-left: 6%;
+   }
+
+    .CardINFO {
+        display: flex;
+        padding:10px ;
+        width: 100%;
+        flex-direction: column;
+        gap: 0px;
+
+    }
+
+    .CardINFO h1{
+        font-size: 18px;
+    }
+    
+    .NomeCard {
+        font-size: 10px;
+    }
+    .DescriçãoCard {
+        margin-top: 8px;
+        font-size: 13px;
+        width: 80%;
+        height: 100px;
+      
+    }
+
+    #PerfilCard {
+        position: absolute;
+        width: 130px;
+        margin-top: -250px;
+        margin-left: 190px;
+    }
+
+    #Estrela {
+        width: 100px;
+        margin-left: 10px;
+        margin-top: 12px;
+    }
+    
+    #PerfilVALUE {
+        width: 80px;
+        margin-left: 90px;
+        height: 42px ;
+        font-size: 10px;
+        border: none;
+        color: white;
+        border-radius: 16px;
+    }
+}
